@@ -9,6 +9,6 @@ export default ({ children, initialstate = {} }) => {
     reducer,
     initialstate,
     applyMiddleware(reduxPromise)
-  );
+  ); 
   return <Provider store={store}>{children}</Provider>;
 };
